@@ -24,5 +24,5 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 server.use(router)
 server.listen(3000, () => {
-  console.log('JSON Server está em execução!')
+  console.log(`JSON Server está em execução! http://localhost:3000`)
 })
